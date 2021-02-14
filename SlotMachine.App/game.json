@@ -1,0 +1,42 @@
+{
+  "General": {
+    "MaxAmount": 10000000,
+    "AmountPrecision": 4,
+    "CoefficientPrecision": 2,
+    "Currency": "EUR"
+  },
+  "Spin": {
+    "RowCount": 4,
+    "SymbolCount": 3
+  },
+  "Symbols": [
+    {
+      "Type": "Normal",
+      "Name": "Apple",
+      "Letter": "A",
+      "Coefficient": 40,
+      "Probability": 45
+    },
+    {
+      "Type": "Normal",
+      "Name": "Banana",
+      "Letter": "B",
+      "Coefficient": 60,
+      "Probability": 35
+    },
+    {
+      "Type": "Normal",
+      "Name": "Pineapple",
+      "Letter": "P",
+      "Coefficient": 80,
+      "Probability": 15
+    },
+    {
+      "Type": "Wildcard",
+      "Name": "Wildcard",
+      "Letter": "*",
+      "Coefficient": 0,
+      "Probability": 5
+    }
+  ]
+}

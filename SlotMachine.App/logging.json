@@ -1,0 +1,46 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "System": "Information",
+        "Microsoft": "Information"
+      }
+    },
+    "WriteTo": [
+      //{
+      //  "Name": "Console",
+      //  "Args": {
+      //    "outputTemplate": "[{MachineID} {Timestamp:HH:mm:ss}] {Message:lj}{NewLine}{Exception}"
+      //  }
+      //},
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/log.txt",
+          "rollingInterval": "Day",
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss zzz} | {Level:u3} | {MachineID} | {SourceContext} | {Message:lj}{NewLine}{Exception}"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext", "WithMachineName" ],
+    "Destructure": [
+      {
+        "Name": "ToMaximumDepth",
+        "Args": { "maximumDestructuringDepth": 4 }
+      },
+      {
+        "Name": "ToMaximumStringLength",
+        "Args": { "maximumStringLength": 100 }
+      },
+      {
+        "Name": "ToMaximumCollectionCount",
+        "Args": { "maximumCollectionCount": 10 }
+      }
+    ],
+    "Properties": {
+      "Application": "SlotMachine.App"
+    }
+  }
+}

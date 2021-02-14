@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Slot.App": {
+      "commandName": "Project",
+      "commandLineArgs": "--machine-id LasVegas133 --environment Development"
+    }
+  }
+}
