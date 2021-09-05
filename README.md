@@ -1,6 +1,5 @@
 # Small projects
 
-Each project is in its own branch. Projects are:
-
+* Reflection performance benchmarking
 * InSync sensor data system
 * Slot machine game
