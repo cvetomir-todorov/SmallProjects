@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "InSync.Counter": {
+      "commandName": "Project",
+      "commandLineArgs": "--interface 192.168.0.101 --port 22000"
+    }
+  }
+}

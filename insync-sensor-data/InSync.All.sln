@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSync.Sensor", "InSync.Sensor\InSync.Sensor.csproj", "{3A5187E8-FAF4-4522-A428-EAF88691C07F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSync.Counter", "InSync.Counter\InSync.Counter.csproj", "{6E513630-EA4C-4862-82B9-75A918E011F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSync", "InSync\InSync.csproj", "{0ABE1C49-755B-42B4-9E38-9E0DD069BCD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSync.Api", "InSync.Api\InSync.Api.csproj", "{8D6A388A-99DF-438C-999B-FB710936D439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A5187E8-FAF4-4522-A428-EAF88691C07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5187E8-FAF4-4522-A428-EAF88691C07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5187E8-FAF4-4522-A428-EAF88691C07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5187E8-FAF4-4522-A428-EAF88691C07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E513630-EA4C-4862-82B9-75A918E011F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E513630-EA4C-4862-82B9-75A918E011F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E513630-EA4C-4862-82B9-75A918E011F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E513630-EA4C-4862-82B9-75A918E011F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ABE1C49-755B-42B4-9E38-9E0DD069BCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABE1C49-755B-42B4-9E38-9E0DD069BCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABE1C49-755B-42B4-9E38-9E0DD069BCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABE1C49-755B-42B4-9E38-9E0DD069BCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6A388A-99DF-438C-999B-FB710936D439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6A388A-99DF-438C-999B-FB710936D439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6A388A-99DF-438C-999B-FB710936D439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6A388A-99DF-438C-999B-FB710936D439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {425A15CE-EB49-4857-B4F4-D86981B93568}
+	EndGlobalSection
+EndGlobal
