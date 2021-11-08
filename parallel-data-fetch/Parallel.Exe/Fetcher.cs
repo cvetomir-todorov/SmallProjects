@@ -25,14 +25,14 @@ namespace Parallel.Exe
 
         public async IAsyncEnumerable<Person> FetchPeople([EnumeratorCancellation] CancellationToken ct)
         {
-            int pageCount = await _repo.GetPersonPageCount(_pageSize, ct);
+            int pageCount = await _repo.GetPageCount(_pageSize, ct);
             if (pageCount <= 0)
             {
                 yield break;
             }
 
             // the channel is unbounded and will have:
-            // - multiple producers - each thread fetching a given page
+            // - multiple producers - each task fetching a given page
             // - a single consumer - this method, which streams the people back to the client
             Channel<IEnumerable<Person>> channel = Channel.CreateUnbounded<IEnumerable<Person>>(new UnboundedChannelOptions
             {
@@ -45,7 +45,7 @@ namespace Parallel.Exe
             {
                 parallelTask = Task.Factory.StartNew(() =>
                 {
-                    FetchPagesInParallel(pageCount, channel, ct);
+                    FetchPagesInParallel(pageCount, channel.Writer, ct);
                 }, TaskCreationOptions.LongRunning);
 
                 await foreach (IEnumerable<Person> personPage in channel.Reader.ReadAllAsync(ct))
@@ -63,7 +63,7 @@ namespace Parallel.Exe
             }
         }
 
-        private void FetchPagesInParallel(int pageCount, Channel<IEnumerable<Person>> channel, CancellationToken ct)
+        private void FetchPagesInParallel(int pageCount, ChannelWriter<IEnumerable<Person>> channelWriter, CancellationToken ct)
         {
             Task[] tasks = new Task[pageCount];
             for (int page = 0; page < pageCount; ++page)
@@ -75,7 +75,7 @@ namespace Parallel.Exe
                         if (task.IsCompletedSuccessfully)
                         {
                             Console.WriteLine("Page {0} fetched successfully.", localPage);
-                            channel.Writer.TryWrite(task.Result);
+                            channelWriter.TryWrite(task.Result);
                         }
                         else
                         {
@@ -86,7 +86,7 @@ namespace Parallel.Exe
             Task.WaitAll(tasks, ct);
 
             // complete the channel so that the reader stops after reading all data
-            channel.Writer.Complete();
+            channelWriter.Complete();
         }
     }
 }

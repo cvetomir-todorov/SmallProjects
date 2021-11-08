@@ -22,7 +22,7 @@ namespace Parallel.Exe
             };
 
             // page size is set to be = count of returned people from the fake repo
-            IPersonFetcher fetcher = new ParallelPagedPersonFetcher(repo, pageSize: 5);
+            IPersonFetcher fetcher = new ParallelPagedPersonFetcher(repo, pageSize: repo.ReturnedPeople.Count);
             int counter = 0;
             using CancellationTokenSource cts = new CancellationTokenSource(TimeSpan.FromSeconds(10));
             await foreach (Person person in fetcher.FetchPeople(cts.Token))

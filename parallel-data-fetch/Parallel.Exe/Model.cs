@@ -14,7 +14,7 @@ namespace Parallel.Exe
 
     public interface IPersonRepo
     {
-        Task<int> GetPersonPageCount(int pageSize, CancellationToken ct);
+        Task<int> GetPageCount(int pageSize, CancellationToken ct);
         Task<IEnumerable<Person>> GetPersonPage(int page, int pageSize, CancellationToken ct);
     }
 
@@ -23,9 +23,9 @@ namespace Parallel.Exe
         private readonly Random _random = new();
 
         public int ReturnedPageCount { get; set; }
-        public IEnumerable<Person> ReturnedPeople { get; set; }
+        public IReadOnlyCollection<Person> ReturnedPeople { get; set; }
 
-        public Task<int> GetPersonPageCount(int pageSize, CancellationToken ct)
+        public Task<int> GetPageCount(int pageSize, CancellationToken ct)
         {
             return Task.FromResult(ReturnedPageCount);
         }
