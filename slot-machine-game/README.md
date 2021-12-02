@@ -1,7 +1,3 @@
-# Slot machine game
-
-Implemented by Cvetomir Todorov - [mail](mailto:cvetomir.todorov@gmail.com), [LinkedIn](https://www.linkedin.com/in/cvetomirtodorov/), [GitHub](https://github.com/cvetomir-todorov/)
-
 # Task description
 
 A simplified slot machine game has to be implemented. 

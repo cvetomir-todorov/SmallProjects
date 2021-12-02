@@ -1,8 +1,6 @@
 # InSync sensor data system
 
-Implemented by Cvetomir Todorov - [mail](mailto:cvetomir.todorov@gmail.com), [LinkedIn](https://www.linkedin.com/in/cvetomirtodorov/), [GitHub](https://github.com/cvetomir-todorov/)
-
-# Task description
+### Task description
 
 Create an embedded system for sending, receiving, processing, storing and searching sensor data.
 

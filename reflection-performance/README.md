@@ -1,8 +1,10 @@
+# Introduction
+
 Have you ever said or heard that reflection is slow? I have to admit that I had made that claim in the past. But I found out it is rather easy to use reflection in a way that doesn't decrease performance. And I created a benchmark for calling a method via reflection and its alternatives only to find out that the cost is not that high after all. I am certain it is OK to use reflection in non-performance-sensitive code. And I have a better idea how some libraries use code generation in order to achieve superior performance.
 
 # Directions
 
-The code is in [my Github repo](https://github.com/cvetomir-todorov/Blogging/tree/reflection-performance). For the actual timing [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) is used. Results and conclusion are at the bottom of this page.
+[BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) is used for measuring actual timing. Results and conclusion are at the bottom of this page.
 
 # Types of methods being benchmarked
 
