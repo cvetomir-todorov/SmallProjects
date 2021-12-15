@@ -1,5 +1,11 @@
 # Small projects
 
+## Linked-list implemented with an array
+
+Implementation of the linked-list data structure via an array, which leads to an improved performance because of the fixed number of initial allocations, reduced GC pressure, cache locality.
+
+Tags: C#, .NET, data structures, linked-list
+
 ## Reflection performance benchmarking
 
 Alternative ways of using reflection in a way that doesn't decrease performance when compared to regular static functions, class/interface methods, delegates.
