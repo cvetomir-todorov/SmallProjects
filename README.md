@@ -12,6 +12,12 @@ Alternative ways of using reflection in a way that doesn't decrease performance 
 
 Tags: C#, .NET, reflection, benchmarking
 
+## NUnit actions
+
+Usage of NUnit actions in order to setup and tear down test data needed for data-driven tests.
+
+Tags: C#, .NET, NUnit, TDD, automated testing, data-driven testing
+
 ## InSync sensor data system
 
 An interview home task to create a distributed system for sending, receiving, processing, storing and searching sensor data. 
