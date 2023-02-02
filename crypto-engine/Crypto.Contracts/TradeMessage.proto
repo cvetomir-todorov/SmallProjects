@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "Crypto.Contracts";
+package Crypto.Contracts;
+import "google/protobuf/timestamp.proto";
+
+message TradeMessage {
+  google.protobuf.Timestamp trade_time = 1;
+  string symbol = 2;
+  double price = 3;
+  double quantity = 4;
+  double volume = 5;
+}

@@ -1,0 +1,1286 @@
+{
+  "SymbolConfig": {
+    "Symbols": [
+      {
+        "Symbol": "BNBUSDT",
+        "DisplayText": "BNB/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ADAUSDT",
+        "DisplayText": "ADA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BTCUSDT",
+        "DisplayText": "BTC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ETHUSDT",
+        "DisplayText": "ETH/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BCCUSDT",
+        "DisplayText": "BCC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "NEOUSDT",
+        "DisplayText": "NEO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "LTCUSDT",
+        "DisplayText": "LTC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "QTUMUSDT",
+        "DisplayText": "QTUM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XRPUSDT",
+        "DisplayText": "XRP/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "EOSUSDT",
+        "DisplayText": "EOS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TUSDUSDT",
+        "DisplayText": "TUSD/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "IOTAUSDT",
+        "DisplayText": "IOTA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XLMUSDT",
+        "DisplayText": "XLM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ONTUSDT",
+        "DisplayText": "ONT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TRXUSDT",
+        "DisplayText": "TRX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ETCUSDT",
+        "DisplayText": "ETC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ICXUSDT",
+        "DisplayText": "ICX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "VENUSDT",
+        "DisplayText": "VEN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "NULSUSDT",
+        "DisplayText": "NULS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "VETUSDT",
+        "DisplayText": "VET/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "PAXUSDT",
+        "DisplayText": "PAX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BCHABCUSDT",
+        "DisplayText": "BCHABC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BCHSVUSDT",
+        "DisplayText": "BCHSV/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "USDCUSDT",
+        "DisplayText": "USDC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "LINKUSDT",
+        "DisplayText": "LINK/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "WAVESUSDT",
+        "DisplayText": "WAVES/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BTTUSDT",
+        "DisplayText": "BTT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "USDSUSDT",
+        "DisplayText": "USDS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ONGUSDT",
+        "DisplayText": "ONG/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "HOTUSDT",
+        "DisplayText": "HOT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ZILUSDT",
+        "DisplayText": "ZIL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ZRXUSDT",
+        "DisplayText": "ZRX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "FETUSDT",
+        "DisplayText": "FET/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BATUSDT",
+        "DisplayText": "BAT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XMRUSDT",
+        "DisplayText": "XMR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "IOSTUSDT",
+        "DisplayText": "IOST/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CELRUSDT",
+        "DisplayText": "CELR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DASHUSDT",
+        "DisplayText": "DASH/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "NANOUSDT",
+        "DisplayText": "NANO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "OMGUSDT",
+        "DisplayText": "OMG/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "THETAUSDT",
+        "DisplayText": "THETA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ENJUSDT",
+        "DisplayText": "ENJ/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MITHUSDT",
+        "DisplayText": "MITH/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MATICUSDT",
+        "DisplayText": "MATIC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ATOMUSDT",
+        "DisplayText": "ATOM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TFUELUSDT",
+        "DisplayText": "TFUEL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ONEUSDT",
+        "DisplayText": "ONE/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "FTMUSDT",
+        "DisplayText": "FTM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ALGOUSDT",
+        "DisplayText": "ALGO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "USDSBUSDT",
+        "DisplayText": "USDSB/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "GTOUSDT",
+        "DisplayText": "GTO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ERDUSDT",
+        "DisplayText": "ERD/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DOGEUSDT",
+        "DisplayText": "DOGE/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DUSKUSDT",
+        "DisplayText": "DUSK/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ANKRUSDT",
+        "DisplayText": "ANKR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "WINUSDT",
+        "DisplayText": "WIN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "COSUSDT",
+        "DisplayText": "COS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "NPXSUSDT",
+        "DisplayText": "NPXS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "COCOSUSDT",
+        "DisplayText": "COCOS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MTLUSDT",
+        "DisplayText": "MTL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TOMOUSDT",
+        "DisplayText": "TOMO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "PERLUSDT",
+        "DisplayText": "PERL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DENTUSDT",
+        "DisplayText": "DENT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MFTUSDT",
+        "DisplayText": "MFT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "KEYUSDT",
+        "DisplayText": "KEY/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "STORMUSDT",
+        "DisplayText": "STORM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DOCKUSDT",
+        "DisplayText": "DOCK/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "WANUSDT",
+        "DisplayText": "WAN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "FUNUSDT",
+        "DisplayText": "FUN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CVCUSDT",
+        "DisplayText": "CVC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CHZUSDT",
+        "DisplayText": "CHZ/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BANDUSDT",
+        "DisplayText": "BAND/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BUSDUSDT",
+        "DisplayText": "BUSD/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BEAMUSDT",
+        "DisplayText": "BEAM/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XTZUSDT",
+        "DisplayText": "XTZ/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "RENUSDT",
+        "DisplayText": "REN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "RVNUSDT",
+        "DisplayText": "RVN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "HCUSDT",
+        "DisplayText": "HC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "HBARUSDT",
+        "DisplayText": "HBAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "NKNUSDT",
+        "DisplayText": "NKN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "STXUSDT",
+        "DisplayText": "STX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "KAVAUSDT",
+        "DisplayText": "KAVA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ARPAUSDT",
+        "DisplayText": "ARPA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "IOTXUSDT",
+        "DisplayText": "IOTX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "RLCUSDT",
+        "DisplayText": "RLC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MCOUSDT",
+        "DisplayText": "MCO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CTXCUSDT",
+        "DisplayText": "CTXC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BCHUSDT",
+        "DisplayText": "BCH/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TROYUSDT",
+        "DisplayText": "TROY/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "VITEUSDT",
+        "DisplayText": "VITE/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "FTTUSDT",
+        "DisplayText": "FTT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BUSDTRY",
+        "DisplayText": "B/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "EURUSDT",
+        "DisplayText": "EUR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "OGNUSDT",
+        "DisplayText": "OGN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DREPUSDT",
+        "DisplayText": "DREP/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BULLUSDT",
+        "DisplayText": "BULL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BEARUSDT",
+        "DisplayText": "BEAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ETHBEARUSDT",
+        "DisplayText": "ETHBEAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "TCTUSDT",
+        "DisplayText": "TCT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "WRXUSDT",
+        "DisplayText": "WRX/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BTSUSDT",
+        "DisplayText": "BTS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "LSKUSDT",
+        "DisplayText": "LSK/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BNTUSDT",
+        "DisplayText": "BNT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "LTOUSDT",
+        "DisplayText": "LTO/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "EOSBULLUSDT",
+        "DisplayText": "EOSBULL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "EOSBEARUSDT",
+        "DisplayText": "EOSBEAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XRPBULLUSDT",
+        "DisplayText": "XRPBULL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XRPBEARUSDT",
+        "DisplayText": "XRPBEAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "STRATUSDT",
+        "DisplayText": "STRAT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "AIONUSDT",
+        "DisplayText": "AION/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MBLUSDT",
+        "DisplayText": "MBL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "COTIUSDT",
+        "DisplayText": "COTI/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BNBBULLUSDT",
+        "DisplayText": "BNBBULL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BNBBEARUSDT",
+        "DisplayText": "BNBBEAR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "STPTUSDT",
+        "DisplayText": "STPT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "WTCUSDT",
+        "DisplayText": "WTC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "DATAUSDT",
+        "DisplayText": "DATA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "XZCUSDT",
+        "DisplayText": "XZC/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "SOLUSDT",
+        "DisplayText": "SOL/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CTSIUSDT",
+        "DisplayText": "CTSI/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "HIVEUSDT",
+        "DisplayText": "HIVE/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "CHRUSDT",
+        "DisplayText": "CHR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BTCUPUSDT",
+        "DisplayText": "BTCUP/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "BTCDOWNUSDT",
+        "DisplayText": "BTCDOWN/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "GXSUSDT",
+        "DisplayText": "GXS/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ARDRUSDT",
+        "DisplayText": "ARDR/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "LENDUSDT",
+        "DisplayText": "LEND/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "MDTUSDT",
+        "DisplayText": "MDT/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 10,
+          "Interval": "00:05:00.0",
+          "Ratio": 5.0
+        }
+      }
+    ]
+  }
+}

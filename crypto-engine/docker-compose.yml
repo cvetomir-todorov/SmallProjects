@@ -1,0 +1,26 @@
+version: "3"
+networks:
+  crypto:
+services:
+  crypto-rabbitmq:
+    image: rabbitmq:3.11.2-management
+    container_name: crypto-rabbitmq
+    hostname: crypto-rabbitmq
+    networks: [crypto]
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    deploy:
+      resources: 
+        limits:
+          memory: 512M
+    environment:
+      RABBITMQ_DEFAULT_VHOST: test-vhost
+      RABBITMQ_DEFAULT_USER: test
+      RABBITMQ_DEFAULT_PASS: secret
+    volumes:
+      - crypto-rabbitmq-data:/var/lib/rabbitmq/mnesia/rabbit@crypto-rabbitmq
+      - crypto-rabbitmq-logs:/var/log/rabbitmq/log
+volumes: 
+  crypto-rabbitmq-data:
+  crypto-rabbitmq-logs:

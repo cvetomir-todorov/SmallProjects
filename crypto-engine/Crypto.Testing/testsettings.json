@@ -1,0 +1,40 @@
+{
+  "Console": {
+    "OutputEnabled": true
+  },
+  "RabbitMQ": {
+    "Hostname": "localhost",
+    "Port": 5672,
+    "VirtualHost": "test-vhost",
+    "ConnectTimeout": "00:00:05.0",
+    "UserName": "test",
+    "Password": "secret"
+  },
+  "LocalFile": {
+    "LocalFilePath": "binance-trades-test.txt"
+  },
+  "SymbolConfig": {
+    "Symbols": [
+      {
+        "Symbol": "BNBUSDT",
+        "DisplayText": "BNB/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 3,
+          "Interval": "00:00:02.0",
+          "Ratio": 5.0
+        }
+      },
+      {
+        "Symbol": "ADAUSDT",
+        "DisplayText": "ADA/USDT",
+        "CurrencySymbol": "$",
+        "VolumeSpike": {
+          "Length": 3,
+          "Interval": "00:00:02.0",
+          "Ratio": 5.0
+        }
+      }
+    ]
+  }
+}
