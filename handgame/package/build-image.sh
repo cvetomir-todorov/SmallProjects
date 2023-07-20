@@ -1,0 +1,1 @@
+docker build -f handgame.dockerfile -t handgame/handgame-api:0.1 ../source/

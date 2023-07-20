@@ -1,10 +1,8 @@
 # Small projects
 
-### Automated testing for ASP.NET applications
+Contains some interesting things I've done over the years.
 
-How automated testing for ASP.NET applications should be done via the API only, so that changing the internal implementation doesn't break the tests, which leads to improved productivity
-
-Tags: C#, .NET, ASP.NET, NUnit, automated testing, unit testing, TDD, data-driven testing
+# Applications
 
 ### Crypto trade engine using Binance trade feed
 
@@ -12,11 +10,39 @@ Trade engine processing crypto currency trades in real-time using Binance, detec
 
 Tags: C#, .NET, crypto, trading, volume spikes, real-time, performance, data-intensive, RabbitMQ, actor model, configuration files, NUnit, automated testing, unit testing, TDD, data-driven testing
 
+### Hand game
+
+Rock-paper-scissors-lizard-spock hand game using an external random generator
+
+Tags: C#, .NET, hand game, RESTful API, observability, Open Telemetry, NUnit, automated testing, unit testing, TDD, data-driven testing
+
 ### InSync sensor data system
 
 Distributed system for sending, receiving, processing, storing and searching sensor data
 
 Tags: C#, .NET, multi-threading, synchronization, TCP, named-pipes, RESTful API, file system, binary-formatted storage, configuration files
+
+### Slot machine game
+
+Simplified slot machine game
+
+Tags: C#, .NET, money amount handling, design patterns, console UI, automated testing, unit testing, TDD, data-driven testing, configuration files, validation, logging
+
+# Automated testing
+
+### Automated testing for ASP.NET applications
+
+How automated testing for ASP.NET applications should be done via the API only, so that changing the internal implementation doesn't break the tests, which leads to improved productivity
+
+Tags: C#, .NET, ASP.NET, NUnit, automated testing, unit testing, TDD, data-driven testing
+
+### NUnit actions
+
+Usage of NUnit actions in order to setup and tear down test data needed for data-driven tests
+
+Tags: C#, .NET, NUnit, automated testing, unit testing, TDD, data-driven testing
+
+# Experiments and measurements
 
 ### Linked-list implemented with an array
 
@@ -35,15 +61,3 @@ Tags: C#, .NET, Task Parallel Library, asynchronous programming, IAsyncEnumerabl
 Alternative ways of using reflection in a way that doesn't decrease performance when compared to regular static functions, class/interface methods, delegates
 
 Tags: C#, .NET, reflection, benchmarking
-
-### Slot machine game
-
-Simplified slot machine game 
-
-Tags: C#, .NET, money amount handling, design patterns, console UI, automated testing, unit testing, TDD, data-driven testing, configuration files, validation, logging
-
-### NUnit actions
-
-Usage of NUnit actions in order to setup and tear down test data needed for data-driven tests
-
-Tags: C#, .NET, NUnit, automated testing, unit testing, TDD, data-driven testing

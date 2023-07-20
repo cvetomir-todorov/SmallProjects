@@ -1,0 +1,5 @@
+{
+  "IpRateLimiting": {
+    "EnableEndpointRateLimiting": false
+  }
+}

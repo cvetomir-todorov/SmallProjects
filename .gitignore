@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# certificate related files
+*.crt
+*.csr
+*.key
+*.pfx
+
 # User-specific files
 *.rsuser
 *.suo
